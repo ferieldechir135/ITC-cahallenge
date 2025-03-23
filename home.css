@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: #030D43;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+/* header */
+header{
+   padding: 10px 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+ header .logo{
+  padding-left: 20px;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    padding: 0 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.menu{
+    display: none;
+    color: azure;
+   font-size: 30px;
+}
+@media screen and (min-width:400px) {
+    header .logo img{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:820px) {
+    header .logo img{
+        width: 300px;
+    }
+    header nav{
+      display: none;
+    }
+    .menu{
+        display: block;
+    }
+}
+/* end-header */
+
+/* main */
+.main {
+    padding: 10px 20px;
+    width: 90%;  
+    margin: auto;
+}
+.main .main1{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(350px ,1fr));
+    padding-left: 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.main .main1 h1{
+    color: white;
+    font-family:sans-serif;
+    padding: 80px 20px 0px 20px; 
+    line-height: 1.9;
+    font-size: 35px;
+    max-width: 500px;
+}
+.main .main1  img{
+    width:400px;
+    height: 350px;
+}
+.main .main2{
+    width: 300px;
+    padding: 0 40px;
+    translate:0 -120px  ;
+}
+.main .main2 p{
+    color: white;
+    font-family: sans-serif;
+    line-height:2;
+    font-size: 15px;
+    
+}
+.main .main2 button{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #8D8DDA;
+    border: 2px solid #8D8DDA;
+    color: white;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.main .main3 {
+    width: 90%;
+    padding: 10px 40px; 
+}
+.main .main3 p{
+    color: white;
+    font-family: sans-serif;
+}
+.main .main3 .imgs{
+    background-color: #27215B54; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    
+}
+.main .main3 .imgs  .imgg1 img{
+    width: 120px;
+   
+}
+.main .main3 .imgs .imgg2 img{
+    width: 100px;
+}
+.main .main3 .imgs .imgg3 img{
+    width: 100px;
+  
+   
+}
+.main .main3 .imgs .imgg4 img{
+    width: 100px;
+   
+}
+@media screen and (max-width:480px){
+    .main .main1 img{
+        display: none;
+    }
+    .main .main2 p{
+        width: 150px;
+        display: none;
+    }
+    .main .main2 button{
+        height: 45px;
+    }
+     .main .main3 .imgs{
+       display: grid;
+       grid-template-columns: repeat(auto-fill,minmax(100px));
+    } 
+    
+}
+/* end-main */
+/* class3 */
+ .class3 {
+   display: flex; 
+   padding: 20px 50px; 
+   align-items: center;
+  justify-content: space-between;
+   flex-wrap: wrap;
+   width: 90%;
+}
+.class3 img{
+    width: 450px;
+}
+.class3 .par{
+    color: white;
+     max-width: 450px;
+    font-family: sans-serif;
+    line-height: 1.3;
+}
+.class3 .par p{
+    font-size: 15px;
+    width: 250px;
+    line-height: 2;
+}
+.class3 .par h2{
+    font-size: 30px;
+} 
+.class3 .par button{
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    background-color: #8D8DDA;
+    border: 2px #8D8DDA;  
+}
+@media screen and (max-width:520px){
+    .class3 img{
+        width: 260px;
+    }
+    .class3 .par p{
+        display: none;
+    }
+}
+
+/* end-class3 */
+/* class4*/
+.class4{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 50px; 
+    justify-content: space-between;
+}
+.class4 .par1{
+    max-width: 450px;
+    color: white;
+    font-family: sans-serif;
+}
+.class4 .par1 p{
+   line-height: 2;
+   font-size: 16px;
+  
+}
+.class4 .par1 h2{
+    line-height: 1.5;
+    font-size: 30px;
+}
+.class4 .par1 button{
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    background-color: #8D8DDA;
+    border: 2px #8D8DDA;
+    margin-top: 20px;
+}
+.class4 img{
+    width: 400px;
+    height: 300px;
+}
+@media screen and (max-width:400){
+    .class4 .par1 p {
+        display: none;
+    }
+}
+/* end-class4 */
+
+/* boxs*/
+.boxs {
+    width: 90%;
+    padding: 40px;
+}
+.boxs .txt {
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    line-height: 1.9;
+}
+.boxs .txt h6{
+    font-size: 20px;
+}
+.boxs .box-main{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill ,minmax(300px,1fr));
+    gap: 20px;
+   
+}
+.boxs .box-main .box{
+   background-color: #0F144B; 
+   border-radius: 7px;
+}
+.boxs .box img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+    
+}
+.boxs p {
+    color: white;
+    border-radius: 7px;
+    line-height: 1.5;
+    padding-left: 20px;
+    font-size: 20px;
+    margin: 10px;
+}
+.boxs .box-main .box h4 {
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+/* end-boxs*/
+
+/* class5*/
+.class5{
+    width: auto;
+    height: 200px;
+    background-color: #AAD9D9;
+    padding: 40px;
+    border-radius: 10px; 
+    margin: 40px
+}
+.class5 .txt1 {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #AAD9D9;
+}
+.class5 h4{
+    color: black;
+}
+.class5 button{
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    border: 2px #8D8DDA;
+    display: block;
+    margin: 100px auto;
+   
+}
+/* end-class5*/
+
+/* footer*/
+.footer{
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    justify-content: space-evenly; 
+    width: auto;
+    line-height: 1.9;
+    padding: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.footer .b{
+    font-size: 25px;
+}
+.footer .sub{
+    width: 230px;
+    background-color: #0F144B;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.footer input{
+  width: 150px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #0f144B;
+  border: 2px #0F144B;
+  color: white;
+  padding-left: 10px;
+}
+.footer button{
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  background-color:#8080D7;
+  border: 2px #0F144B;
+  color: white;
+  
+}
+/* end-footer*/

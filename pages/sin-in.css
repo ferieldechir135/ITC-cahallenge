@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: #030D43;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+/* header */
+header{
+   padding: 10px 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+ header .logo img{
+   width: 250px;
+   padding-left: 20px;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    padding: 0 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+/* header */
+
+/* log */
+.log{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 15px;
+}
+.log .imge{
+    width: 400px;
+    height: 400px;
+    background-color: #DEC17A;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.log .imge img{
+    width: 300px;
+    padding: 50px;
+    display: block;
+    margin: 50px  auto;
+    background-color: #DEC17A;
+  
+}
+.log .login{
+    width: 500px;
+    height: 450px;
+    background-color: #EAE3F1;
+    border-radius: 10px;
+    margin-right: 70px;
+}
+.log .login h1{
+    display: block;
+    margin: 20px  auto;
+    background-color:#EAE3F1;
+    text-align: center;
+}
+.log .login label{
+    background-color: #EAE3F1;
+    font-family: sans-serif;
+    display: flex;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.log .login input{
+    background-color: white;
+    width: 370px;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid #010922;
+    padding-left: 20px;
+    margin-left: 20px;
+
+}
+.log .login button{
+    width: 390px;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    background-color: #030D43;
+}
+.log .button{
+    display: flex;
+    background-color: #EAE3F1;
+    margin-top: 30px;
+    margin-right: 20px;
+    color: white;
+   
+    
+}
+.log .button button{
+    background-color: #030D43;
+}
+
+/* end-log */
